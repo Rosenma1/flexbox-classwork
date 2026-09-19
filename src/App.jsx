@@ -1,7 +1,7 @@
 import React from 'react'
-import image from './assets/image  2.jpg'
-import image1 from './assets/image 1.jpg'
-import image3 from './assets/image 3.jpg'
+import image from './assets/image2.jpg'
+import image1 from './assets/image1.jpg'
+import image3 from './assets/image3.jpg'
 
 const App = () => {
   return (
