@@ -1,4 +1,7 @@
 import React from 'react'
+import image from './assets/image  2.jpg'
+import image1 from './assets/image 1.jpg'
+import image3 from './assets/image 3.jpg'
 
 const App = () => {
   return (
@@ -53,19 +56,19 @@ const App = () => {
 
     <div className="testimonial-container">
       <div className="card">
-        <img src="/Users/mac/Downloads/image 1.jpg" alt=" Student picture"/>
+        <img src={image1} alt= "Student picture"/>
         <h3>Odocha Leonard</h3>
         <p>This Academy Completely changed my Career. I learned so well an got my first good job</p>
       </div>
 
       <div className="card">
-        <img src="/Users/mac/Downloads/image  2.jpg" alt=" Student pic 2"/>
+        <img src={image} alt="Student pic 2"/>
         <h3> Oluchi Iwueze</h3>
         <p>This Academy Completely changed my Career. They did their best</p>
       </div>
 
       <div className="card">
-        <img src="/Users/mac/Downloads/image 3.jpg" alt="Student 3"/>
+        <img src={image3} alt="Student 3"/>
         <h3> Joseph Claret</h3>
         <p>This Academy Completely changed my Career. Awesome experience</p>
       </div>
