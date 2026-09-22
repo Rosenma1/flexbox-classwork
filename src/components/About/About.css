@@ -1,0 +1,56 @@
+/* About Us section */
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    gap: 50px;
+    background-color: #f5f5f5;
+   
+   
+   }
+   /* Left side */
+   .about-text{
+    flex: 1;
+   
+   }
+   .about-text h3{
+    color:blue;
+    padding-bottom: 12px;
+    letter-spacing: 2px;
+   }
+   .about-text h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+   
+   }
+   .about-text p{
+    font-size: 18.5px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #555;
+   }
+   .about-text ul{
+    list-style: none;
+    padding-bottom: 30px;
+   }
+   
+   .about-text .btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: blue;
+    color: wheat;
+    padding: 15px 35px;
+    border-radius: 10px;
+   }
+   .about-text .btn:hover{
+    background-color: darkblue;
+   }
+   .about-image{
+    flex:1;
+   }
+   .about-image img{
+    width: 100%;
+    border-radius: 50%;
+   }
+   

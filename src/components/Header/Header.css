@@ -1,0 +1,84 @@
+section header{
+    display: flex;
+   justify-content: right;
+   background-color: black;
+   height: 6.6vh;
+   width: 100%;
+   position: fixed;   
+   
+  }
+  
+  .nav-links-text{
+   margin-top: auto; margin-bottom: auto;
+   padding-right:10px;
+   
+  
+  }
+  
+  header  .nav-links-text a{
+  color: antiquewhite;
+  text-decoration: none; 
+  
+  
+  }
+  
+  header .nav-links-text a:hover{
+  background-color: blue;
+  border-radius: 10%;
+  color: black;
+  }
+  .hero{
+    width: 100%;
+    background-image: url(../../assets/swimmingpoolcopy.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+   }
+   /* Dark overlay */
+   .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   }
+   .hero-content{
+    text-align: center;
+    color: whitesmoke;
+    width: 80%;
+    min-width: 700px;
+   
+   }
+   .hero-content h1{
+    font-size: 22px;
+    margin-bottom: 20px;
+   
+   }
+   .hero-content p{
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+   
+   }
+   
+   /* Button  */
+   .hero-content button{
+    padding: 15px 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    background: #ff6600;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+   
+   }
+   
+   .hero-content button:hover{
+    background: black;
+    text-decoration: underline;
+    display: none;
+   }
