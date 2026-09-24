@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 
 
@@ -8,22 +9,14 @@ const Header = () => {
     <div>
       <section>
 <header>
-  <div class="nav-links-text"><a href="">Home</a></div>
-  <div class="nav-links-text"><a href="">About</a></div>
-  <div class="nav-links-text"><a href="">Contact</a></div>
-  <div class="nav-links-text"><a href="">Services</a></div>
+  <div className="nav-links-text"><Link>Home</Link></div>
+  <div className="nav-links-text"><Link to="/AboutScreen">About</Link></div>
+  <div className="nav-links-text"><Link to ="/ContactScreen">Contact</Link></div>
+  <div className="nav-links-text"><Link to="/ServiceScreen">Services</Link></div>
   </header>
 
   </section>
-  <section class="hero">
-    <div class="overlay">
-      <div class="hero-content"><h1> Welcome to my Page</h1>
-      <p>Learn fullstack development</p>
-      <button>Get started</button>
-    </div>
-
-    </div>
-  </section>
+  
     </div>
   )
 }
