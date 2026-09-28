@@ -15,7 +15,7 @@ const ContactScreen = () => {
       <div className='two-div'>
      <div className='general-inquiry'>
       <h5>General Inquiries</h5>
-       <p>For questions about programs, admissions, financial aid,  requests for materials, or any other inquiries regarding attending NBCC, please complete the form below.</p>
+       <p>For questions about programs, admissions, financial aid,  requests for materials, or any other inquiries regarding attending ROSEK, please complete the form below.</p>
        <h1>What can we help you <br/> with?</h1>
        <ul>
        <li><Link>I am a ROSEK student</Link></li>
