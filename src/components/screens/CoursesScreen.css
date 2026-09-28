@@ -1,0 +1,71 @@
+.coursesscreen-header{
+    width: 100%;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-container img{
+    width: 10%;
+    height: 10vh;
+
+}
+
+.dropdown-menu{
+    margin-top: 40px;
+    font-size: 27px;
+    color: darkred;
+}
+
+/* FULLTIME COURSES TABLE SECTION  */
+.tablesection1{
+    width: 100%;
+}
+.tablesection1 div{
+    padding: 20px;
+}
+.tablesection1 h2{
+    margin-top: 20px;
+    color: darkred;
+}
+.tablesection1 table{
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.tablesection1 tr{
+     background-color: white;
+     text-align: left; 
+}
+.tablesection1 th{
+    padding: 12px;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+}
+
+
+
+/* COURSESSCREEN RESPONSIVENESS */
+@media (max-width:768px) {}
+
+
+@media (max-width:480px) {
+  
+    .nav-container img{
+        width: 25%;
+        height: 10vh;
+    
+    }
+    .dropdown-menu{
+        margin-top: 35px;
+        font-size: 17px;
+    }
+    .tablesection1 table{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .tablesection1 h2{
+        font-size: 20px;
+    }
+}

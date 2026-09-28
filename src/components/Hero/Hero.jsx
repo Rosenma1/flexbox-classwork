@@ -6,8 +6,8 @@ const Hero = () => {
     <div>
       <section className="hero">
     <div className="overlay">
-      <div className="hero-content"><h1> Welcome to my Page</h1>
-      <p>Learn fullstack development</p>
+      <div className="hero-content"><h1> Welcome to Rosek Academy</h1>
+      <p>Learn fullstack development and other hands-on Skills</p>
       <button>Get started</button>
     </div>
 

@@ -44,3 +44,18 @@
    color:#fff;
    
    }
+
+     /* CTA RESPONSIVENESS */
+     @media (max-width: 768px) {
+        .cta{
+            padding: 60px 8%;
+
+        }
+        .cta-content h2{
+            font-size: 32px;
+        }
+        .cta-content p{
+            font-size: 18px;
+        }
+    
+    }

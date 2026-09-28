@@ -9,10 +9,10 @@ const Header = () => {
     <div>
       <section>
 <header>
-  <div className="nav-links-text"><Link>Home</Link></div>
+  <div className="nav-links-text"><Link to="/">Home</Link></div>
   <div className="nav-links-text"><Link to="/AboutScreen">About</Link></div>
-  <div className="nav-links-text"><Link to ="/ContactScreen">Contact</Link></div>
-  <div className="nav-links-text"><Link to="/ServiceScreen">Services</Link></div>
+  <div className="nav-links-text"><Link to ="/CoursesScreen">Courses</Link></div>
+  <div className="nav-links-text"><Link to="/ContactScreen">Contact</Link></div>
   </header>
 
   </section>

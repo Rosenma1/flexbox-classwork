@@ -1,0 +1,223 @@
+.Aboutheader{
+    width: 100%;
+    background-image: url(../../assets/AboutUsimage.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.aboutscreen{
+   padding-top: 100px;
+   padding-left: 60px;
+    
+}
+.aboutscreen h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+   color:darkgreen
+}
+.aboutscreen p{
+    font-style: italic;
+    color:rgb(250, 230, 215);
+    margin-bottom: 15px;
+}
+.aboutscreen button{
+    background-color:darkgreen ;
+    color: white;
+    border: 1px solid rgba(0, 100, 0, 0.399);
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+/* border */
+.border{
+    border: 2px solid black;
+    margin-top: 40px;
+    width: 35%;
+    height: 100%;
+    padding: 15px;
+    margin-left: 45px;
+}
+.border h2{
+    color: darkgreen;
+    margin-bottom: 8px;
+}
+.border p{
+    text-align: left;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+
+/* Our Mission */
+.Ourmission{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.Ourmission h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: darkgreen;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.Ourmission p{
+    font-size: 16px;
+    line-height: 1.3;
+    padding-left: 60px;
+    
+}
+
+/* Our Vision */
+.Ourvision{
+    width: 100%;
+}
+.Ourvision h3{
+    font-size: 30px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    color: darkgreen;
+  
+}
+.Ourvision p{
+    padding-left: 60px;
+    margin-top: 10px;
+    line-height: 1.3;
+    font-size: 16px;
+}
+
+
+.courseslink{
+    background-image: url(../../assets/computer\ copy.png);
+    margin-top: 50px;
+    width: 100%;
+    height: 70vh;
+    padding-left: 80px;
+    padding-top: 80px;
+   
+    
+   
+}
+.courseslink h4{
+    color:rgb(250, 230, 215);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.courseslink h5{
+     color: darkgreen;
+     font-size: 30px;
+     margin-bottom: 10px;
+}
+.linkcourses{
+    font-size: 20px;
+    color: antiquewhite;
+    border: 1px solid darkgreen;
+    padding: 10px 30px;
+    width: 15%;
+    background-color: darkgreen;
+    margin-left: 10px;
+    
+}
+
+
+/* ABOUTSCREEN RESPONSIVENESS */
+@media (max-width:768px) {
+     .Aboutheader{
+        width: 100%;
+        height: 70vh;
+     }
+     .aboutscreen{
+        padding-top: 20px;
+     }
+     .aboutscreen h1{
+       font-size: 20px;
+       padding-left: 290px;
+     }
+     .aboutscreen p{
+        padding-left: 290px;
+     }
+     .aboutscreen button{
+       margin-top: 270px;
+       padding-left: 23px;
+      
+     }
+     .border{
+        width: 80%;
+     }
+     .Ourmission{
+        width: 95%;
+     }
+      .Ourvision{
+        width: 95%;
+      }
+     .courseslink{
+        height: 70vh;
+     }
+     .courseslink h4{
+        font-size: 30px;
+     }
+     .courseslink h5{
+       font-size: 20px;
+     }
+     .linkcourses{
+        font-size: 15px;
+        padding: 10px 15px;
+        width: 30%;
+     }
+
+}
+
+
+@media (max-width: 480px) {
+    .Aboutheader{
+        width: 100%;
+        height: 60vh;
+    }
+    .aboutscreen{
+        padding-top: 15px;
+        
+    }
+    .aboutscreen h1{
+        font-size: 15px;
+        padding-left: 180px;
+   }
+   .aboutscreen p{
+     padding-left: 150px;
+   }
+    .aboutscreen button{
+       margin-top: 290px; 
+    }
+    .border{
+       width: 80%;
+       
+        
+    }
+    .Ourmission{
+      width: 95%;  
+    }
+    
+    .Ourvision{
+        width: 95%;
+    }
+    .courseslink{
+        height: 50vh;
+    }
+    .courseslink h4{
+        font-size: 25px;
+    }
+    .courseslink h5{
+        font-size: 20px;
+    }
+    .linkcourses{
+        font-size: 10px;
+        padding: 8px 10px;
+        width: 30%;
+       font-weight: bold;
+    }
+
+
+}
